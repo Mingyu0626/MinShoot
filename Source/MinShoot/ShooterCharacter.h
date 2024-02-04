@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ShooterCharacter.generated.h"
 
+class AGun;
+
 UCLASS()
 class MINSHOOT_API AShooterCharacter : public ACharacter
 {
@@ -33,4 +35,10 @@ private:
 	void LookRightRate(float AxisValue);
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 70.f;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AGun> GunClass;
+
+	UPROPERTY()
+	AGun* Gun;
 };
