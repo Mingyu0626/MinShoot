@@ -19,5 +19,5 @@ public:
 protected:
 
 private:
-	
+	void EndGame(bool bIsPlayerWinner);
 };
