@@ -50,7 +50,7 @@ private:
 	TSubclassOf<AGun> GunClass;
 
 	UPROPERTY(EditDefaultsOnly)
-	float MaxHealth = 100.f;
+	float MaxHealth = 70.f;
 
 	UPROPERTY(VisibleAnywhere)
 	float Health;
