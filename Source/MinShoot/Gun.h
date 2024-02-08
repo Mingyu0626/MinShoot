@@ -45,7 +45,7 @@ private:
 	USoundBase* ImpactSound;
 
 	UPROPERTY(EditAnywhere)
-	float MaxRange = 1000.f;
+	float MaxRange = 2000.f;
 
 	UPROPERTY(EditAnywhere)
 	float Damage = 10.f;

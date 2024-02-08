@@ -46,10 +46,10 @@ private:
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 70.f;
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditAnywhere)
 	TSubclassOf<AGun> GunClass;
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditAnywhere)
 	float MaxHealth = 70.f;
 
 	UPROPERTY(VisibleAnywhere)
